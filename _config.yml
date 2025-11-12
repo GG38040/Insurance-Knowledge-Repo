@@ -1,0 +1,12 @@
+title: Insurance Knowledge Repo
+description: Open insurance knowledge base
+theme: just-the-docs
+url: https://gg38040.github.io/Insurance-Knowledge-Repo
+
+# Optional: tweak navigation
+nav_order: 1
+search_enabled: true
+
+# Let Jekyll serve PDFs and static files
+include:
+  - "*.pdf"

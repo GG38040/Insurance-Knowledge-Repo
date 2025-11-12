@@ -10,3 +10,6 @@ search_enabled: true
 # Let Jekyll serve PDFs and static files
 include:
   - "*.pdf"
+  - pdfs
+  - assets
+  - .nojekyll

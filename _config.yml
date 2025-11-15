@@ -4,6 +4,38 @@ remote_theme: just-the-docs/just-the-docs
 url: https://gg38040.github.io/Insurance-Knowledge-Repo
 baseurl: ""
 
+# Enable search
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: false
+
+# Color scheme
+color_scheme: light
+
+# Footer content
+footer_content: "Copyright &copy; 2025 Insurance Knowledge Repository. Distributed under the <a href=\"https://github.com/GG38040/Insurance-Knowledge-Repo/blob/main/LICENSE\">MIT License</a>."
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Enable heading anchors
+heading_anchors: true
+
+# Aux links for the upper right navigation
+aux_links:
+  "View on GitHub":
+    - "https://github.com/GG38040/Insurance-Knowledge-Repo"
+
+# Makes Aux links open in a new tab
+aux_links_new_tab: true
+
 # Make sure PDFs and static files are included
 include:
   - "*.pdf"

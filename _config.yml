@@ -7,8 +7,3 @@ baseurl: ""
 # Make sure PDFs and static files are included
 include:
   - "*.pdf"
-  - .nojekyll
-
-# Disable Jekyll’s exclusion of dotfiles (important!)
-keep_files:
-  - ".nojekyll"
